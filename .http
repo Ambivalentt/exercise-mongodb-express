@@ -1,0 +1,17 @@
+POST http://localhost:3000/api/notes
+Content-Type: application/json
+
+{
+  "name": "Lian xen",
+  "email": "example@example.com",
+  "age":43
+}
+
+###
+
+PUT http://localhost:3000/api/notes/67d53a2af318b3f56d67afe9
+Content-Type: application/json
+
+{
+  "name":"Juan Gabriel"
+}
